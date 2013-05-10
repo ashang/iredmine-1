@@ -7,16 +7,16 @@ production:
   adapter: postgresql
   database: redmine
   host: localhost
-  username: root
-  password: ""
+  username: ltt
+  password: "123456"
   encoding: utf8
 
 development:
   adapter: postgresql
   database: redmine_development
   host: localhost
-  username: root
-  password: ""
+  username: ltt
+  password: "123456"
   encoding: utf8
 
 # Warning: The database defined as "test" will be erased and
@@ -26,8 +26,8 @@ test:
   adapter: postgresql
   database: redmine_test
   host: localhost
-  username: root
-  password: ""
+  username: ltt
+  password: "123456"
   encoding: utf8
 
 # PostgreSQL configuration example
